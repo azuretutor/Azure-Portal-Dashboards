@@ -8,14 +8,18 @@ Dashboards give you flexibility in what information to display. For example, you
 
 Dashboards are stored as JavaScript Object Notation (JSON) files. This format means you can download a dashboard and edit the file directly, then upload it again to Azure or share it with other users. Azure stores dashboards within resource groups, just like any other resource that you can manage within the portal.
 
+
 **How to create dashboard**
+
 1. In the Azure portal, from the top left-hand side, select **Show portal menu > Dashboard**.
 
 2. Select the Create button, then select **Custom**.
 
 3. At the top left, change **My Dashboard** to **Customer Dashboard**.
+   
 
 **How to Add and configure the Clock tile**
+
 1. In the Tile Gallery, find the **Clock** tile and drag it onto the workspace. Place it on the top along the right side of the available space.
 
 2. Select the **Preview** button at the top of the screen, then right-click the **Clock** tile and select **Edit**.
@@ -30,7 +34,9 @@ Dashboards are stored as JavaScript Object Notation (JSON) files. This format me
 
 You should now have two clocks on your dashboard, each displaying a different time zone.
 
+
 **How to Add and Resize tiles**
+
 1. Select the **Edit** button to return to edit mode, then find the **All resources** tile in the Tile Gallery. Drag and drop it in the top left-hand corner of the dashboard workspace.
 
 2. Hover over the new **All resources** tile and select the **Context menu** icon (...), then select the **6 x 6** size.
@@ -47,8 +53,10 @@ You should now have two clocks on your dashboard, each displaying a different ti
    * Marketplace
 
 7. After you've added these tiles, select **Save**. The **Customer Dashboard** dashboard that you created appears as your current dashboard.
+   
 
 **How to Clone a dashboard***
+
 You now want to create a similar dashboard for some other customers, but with a few changes.
 
 1. Select the **Clone** button.
@@ -64,8 +72,10 @@ You now want to create a similar dashboard for some other customers, but with a 
    * User sign-in summary
 
 6. Reposition the tiles as necessary, then select **Save**. The **Microsoft Entra Admin Dashboard** dashboard that you created appears as your current dashboard.
+   
 
 **How to Share a dashboard**
+
 You now want to make this dashboard available to other users. In the sandbox environment, you can't share a dashboard with other users. But you can see how you'd publish a shared dashboard by completing the following steps
 
 1. From the Microsoft Entra Admin dashboard, select the **Share** button at the top. The **Sharing + access control** appears.
@@ -73,15 +83,19 @@ You now want to make this dashboard available to other users. In the sandbox env
 3. Select the resource group <your own resource group name> from the **Resource group** dropdown.
 4. Select **Publish**.
 5. Close the **Sharing + access control** pane.
+   
 
 **How to Delete a dashboard**
+
 1. From the dashboard selection drop-down control, ensure that **Microsoft Entra Admin Dashboard** is selected.
 
 2. Select the **Delete** button.
 
 3. In the **Confirmation** message box, check the box to confirm that you want to delete the dashboard, then select **OK**.
+   
 
 **How to Reset a dashboard**
+
 1. Ensure that **Customer Dashboard** is selected.
 
 2. Select **Edit**.
